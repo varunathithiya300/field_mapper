@@ -1,2 +1,1 @@
-# AKA300
-Application to map field names between a source and target
+### Application to map the fields from a source with the target
