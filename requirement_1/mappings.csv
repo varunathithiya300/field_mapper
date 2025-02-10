@@ -1,0 +1,469 @@
+Customer Field,Vendor Field,Cosine Similarity
+Record Identifier,Record ID,0.8211
+RxCLAIM Number,Record Number,0.4375
+Claim Sequence Number,Original_Claim,0.6127
+Claim Status Code,Claim ID,0.7724
+Carrier ID,Record ID,0.5167
+Carrier ID Override,Claim ID,0.4252
+Account ID,Employee_ID,0.6198
+Version Release Number,Dosage Form,0.3106
+Group ID,Group_ID,0.9396
+Group Plan Code,Group_ID,0.5534
+Group Client Benefit Code,Group_ID,0.5649
+Claim Response Status Code,Claim ID,0.6973
+Member ID,Group_ID,0.6334
+Member Last Name,Patient_Last_Name,0.6389
+Member First Name,Patient_First_Name,0.592
+Member Middle Initial,Prescriber_Name,0.3905
+Member Person Code,Member_Deductible,0.5304
+Member Relationship Code,Relationship,0.5434
+Member Gender Code,Group_ID,0.4467
+Member Date of Birth,Date_of_Birth,0.7779
+Member Age - First of Month,Date_of_Birth,0.4788
+Member Zip Code,Patient_Zip_code,0.7619
+Member Social Security Number (SSN),SSN,0.7755
+Member Drug Utilization Review (DUR) Process Flag,Pharmacy_Type,0.4824
+Member Family ID,Group_ID,0.5832
+Member Family Indicator,Group_ID,0.3752
+Member Family Type,Group_ID,0.4501
+Coordination of Benefits (COB) Code,NDC,0.3609
+Member Benefit Plan Code,Plan_Paid_Amount,0.4922
+Member Client Product Code,Member_Other_Cost,0.5317
+Care Facility ID,Patient_ID,0.7119
+Care Facility Name,Patient_Address 1,0.5516
+Primary Physician ID,Patient_ID,0.6151
+Primary Prescriber First Name,Prescriber_Name,0.7995
+Primary Prescriber Last Name,Prescriber_Name,0.7899
+Primary Prescriber Middle Initial,Prescriber_Name,0.6399
+Primary Prescriber Specialty Code,Prescriber_Name,0.6719
+Member Alternate Insurance Code,Claim ID,0.4086
+Member Alternate Insurance Name,Claim ID,0.4671
+Alternate Insurance Member ID,Claim ID,0.5668
+Member Medicare Coverage From Date,Date_Prescription_Filled,0.4808
+Member Medicare Coverage Type,Patient_State,0.4035
+Medicare Beneficiary Identifier (MBI) ,Patient_ID,0.4197
+Subscriber ID - Submitted,Prescriber_Name,0.6206
+Member Last Name - Submitted,Patient_Last_Name,0.6336
+Member First Name - Submitted,Patient_First_Name,0.583
+Person Code - Submitted,Patient_Zip_code,0.4434
+Relationship Code - Submitted,Relationship,0.5329
+Member Gender Code - Submitted,Claim ID,0.3966
+Member Date of Birth - Submitted,Date_of_Birth,0.7426
+Eligibility Clarification Code - Submitted,Status,0.5105
+Customer Location Code - Submitted,Patient_Zip_code,0.4075
+Primary Care Provider ID - Submitted,Patient_ID,0.5873
+Primary Care Provider ID Qualifier - Submitted,Patient_ID,0.5754
+Facility ID - Submitted,Employee_ID,0.5828
+Other Coverage Code - Submitted,Member_Other_Cost,0.3548
+Bank Identification Number (BIN) - Submitted,Member_Copay_Coins,0.4476
+Processor Control Number - Submitted,Prescriber_Name,0.3426
+Group Number - Submitted,Group_ID,0.6238
+Transaction Code - Submitted,Paid_Date,0.456
+Claim Submitted Date ,Original_Claim,0.7004
+Claim Submitted Time,Original_Claim,0.673
+Original Paid Transaction Submitted Date,Paid_Date,0.702
+Claim Reversal Submitted Date,Original_Claim,0.652
+Claim Counter,Original_Claim,0.7308
+Brand/Generic Drug Counter,Brand_Generic,0.6988
+Formulary Counter,Formulary,0.79
+Prescription Number - Submitted,Date_Prescription_Filled,0.7506
+Prescription Number Qualifier - Submitted ,Date_Prescription_Filled,0.6798
+Prescription New/Refill Code - Submitted,Date_Prescription_Filled,0.6553
+Prescription Fill Date - Submitted,Date_Prescription_Filled,0.8655
+Prescription Compound Code - Submitted,Prescription_No,0.6237
+Product ID Qualifier - Submitted,Claim ID,0.4259
+Product ID - Submitted,Claim ID,0.5148
+Product Key,Brand_Generic,0.3076
+Metric Quantity Dispensed - Submitted,Quantity,0.5895
+Quantity Dispensed - Submitted,Quantity,0.575
+Days Supply - Submitted,Days_Supply,0.8986
+Product Selection Code - Submitted,Brand_Generic,0.364
+Prescription Written Date -  Submitted,Date_Prescription_Filled,0.8218
+Number of Authorized Refills - Submitted,Total_Billed_Amount,0.3758
+Prescription Origin Code - Submitted,Prescription_No,0.5498
+Prescription Denial Clarification Code - Submitted,Prescription_No,0.6789
+Prior Authorization/Medical Certification Number - Submitted,Claim ID,0.4039
+Prior Authorization/Medical Certification Code - Submitted,Patient_State,0.3582
+Member Prior Authorization Number,Member_Other_Cost,0.4391
+Member Prior Authorization Reason Code,Member_Deductible,0.3737
+Member Prior Authorization From Date,Date_of_Service,0.4109
+Member Prior Authorization Through Date,Date_of_Service,0.4269
+Drug Label Abbreviation,Pharmacy_Name,0.6482
+Drug Name ,Pharmacy_Name,0.6927
+Drug Manufacturer ID,Pharmacy_Name,0.6028
+Drug Manufacturer Name,Pharmacy_Name,0.6831
+Generic Product Indicator (GPI) Number,Brand_Generic,0.5335
+Generic Drug Name,Brand_Generic,0.7074
+Product Package Size  - Unit of Measure (UOM),Quantity,0.5184
+Product Package Size,Quantity,0.3986
+Drug Descriptor Identifier (DDID),Pharmacy_Type,0.4914
+American Hospital Formulary Service (AHFS) Class Code,Patient_State,0.4568
+Drug Enforcement Agency (DEA) Code,Pharmacy_Type,0.431
+Prescription Over the Counter (OTC) Code,Date_Prescription_Filled,0.656
+Multisource Code,Member_Deductible,0.2688
+Generic Code Override,Brand_Generic,0.6099
+Product Reimbursement Code,Plan_Paid_Amount,0.509
+Drug Brand/Trademark Code,Brand_Generic,0.6521
+Food and Drug Administration (FDA) Therapeutic Equivalent Code,Prescription_No,0.5381
+Drug Metric Strength,Drug_Strength,0.8331
+Drug Strength - Unit of Measure (UOM),Drug_Strength,0.784
+Drug Administration Route Code,Pharmacy_Type,0.5195
+Drug Dosage Form Code,Dosage Form,0.8621
+Maintenance Drug Code,Drug_Strength,0.5061
+Drug Third Party Exception Code,Claim ID,0.3512
+Drug Unit Dose/Unit of Use Code,Dosage Form,0.7014
+Unit Dose Code - Submitted,Dosage Form,0.6471
+Super Pharmacy Network ID,Pharmacy_Name,0.6583
+Pharmacy Network ID,Pharmacy_Name,0.7367
+Pharmacy Network Name,Pharmacy_Name,0.8609
+Pharmacy Network Carrier ID,Pharmacy_Name,0.6751
+Pharmacy Network Region Code,Pharmacy_Name,0.6031
+Pharmacy Chain Code ,Pharmacy_Type,0.6906
+Pharmacy Network Priority Code,Pharmacy_Type,0.6026
+Pharmacy Network Type,Pharmacy_Type,0.7968
+Pharmacy Network List Used - National Drug Code (NDC),Pharmacy_Type,0.6243
+Pharmacy Network List Used - Generic Product Indicator (GPI),Pharmacy_Type,0.6719
+Service Provider ID - Validated,Employee_ID,0.5758
+Service Provider ID Qualifier - Validated,Date_of_Service,0.5273
+Pharmacy Store Number,Pharmacy_Name,0.7657
+Pharmacy Relationship Code ,Pharmacy_Type,0.7178
+Pharmacy Payee ID,Pharmacy_Name,0.6556
+Dispenser Class Code,Pharmacy_Type,0.3396
+Dispenser Type Code,Pharmacy_Type,0.4052
+Pharmacy Zip Code,Patient_Zip_code,0.7067
+Prescriber ID - Submitted,Prescriber_Name,0.7893
+Prescriber ID Qualifier - Submitted ,Prescriber_Name,0.7162
+Prescriber Last Name,Prescriber_Name,0.8642
+Prescriber First Name,Prescriber_Name,0.913
+Prescriber Middle Initial,Prescriber_Name,0.6997
+Prescriber Specialty Code,Prescriber_Name,0.663
+Final Benefit Plan Code,Plan_Paid_Amount,0.4959
+Final Benefit Plan Effective Date,Paid_Date,0.4547
+Benefit Plan Qualifier,Plan_Paid_Amount,0.4424
+Benefit Plan National Drug Code (NDC) List Name,NDC,0.6134
+Benefit Plan Generic Product Indicator (GPI) List Name,Brand_Generic,0.4146
+Benefit Plan Preferred Drug List - National Drug Code (NDC),NDC,0.5449
+Benefit Plan Preferred Drug List - Generic Product Indicator (GPI),Pharmacy_Type,0.5068
+Benefit Plan Drug Status Code,Date_Prescription_Filled,0.4735
+Benefit Plan Final Price Schedule,Plan_Paid_Amount,0.578
+Formulary Protocol Flag,Formulary,0.568
+Formulary Flag,Formulary,0.7464
+Contingent Therapy Code,Patient_State,0.3923
+Pharmacy Claim Message 1,Pharmacy_Name,0.6719
+Pharmacy Claim Message 2,Pharmacy_Type,0.6444
+Pharmacy Claim Message 3,Pharmacy_Type,0.6274
+Pharmacy Claim Reject Code Count,Pharmacy_Type,0.5375
+"Pharmacy Claim Reject Code 1
+",Pharmacy_Type,0.615
+Pharmacy Claim Reject Code 2,Pharmacy_Type,0.6046
+Pharmacy Claim Reject Code 3,Pharmacy_Type,0.5852
+Benefit Plan Identifier - Rejected Pharmacy Claim,Pharmacy_Type,0.5916
+Drug Utilization Review (DUR) Conflict Code - Submitted,Drug_Strength,0.4707
+Drug Utilization Review (DUR)  Professional Service Code (Intervention Code) - Submitted,Pharmacy_Type,0.5198
+Drug Utilization Review (DUR) Result of Service Code (Outcome Code) - Submitted,Dosage Form,0.491
+Drug Utilization Review (DUR)  Level of Service - Submitted ,Dosage Form,0.5443
+Diagnosis Code - Submitted,Patient_State,0.4299
+Diagnosis Code Qualifier - Submitted,Patient_First_Name,0.3999
+Reversal Drug Utilization Review (DUR) Conflict Code,Drug_Strength,0.4769
+Reversal Submitted Professional Service Code (Intervention Code) - Drug Utilization Review (DUR),Dosage Form,0.4678
+Reversal Drug Utilization Review (DUR) Result of Service Code (Outcome Code),Dosage Form,0.4901
+Reversal Level of Service Code - Drug Utilization Review (DUR),Dosage Form,0.4939
+Drug Conflict Code 1 - Drug Utilization Review (DUR),Drug_Strength,0.5245
+Severity Index Code 1- Drug Utilization Review (DUR),Drug_Strength,0.5183
+Other Pharmacy Code 1 - Drug Utilization Review (DUR),Pharmacy_Type,0.6644
+Date of Previous Fill 1 - Drug Utilization Review (DUR),Dosage Form,0.5145
+Quantity of Previous Fill 1 - Drug Utilization Review (DUR),Dosage Form,0.5117
+Database Code 1 - Drug Utilization Review (DUR),Pharmacy_Type,0.4983
+Other Prescriber Code 1 - Drug Utilization Review (DUR),Dosage Form,0.5319
+Free Text Message 1 - Drug Utilization Review (DUR),Prescription_No,0.5121
+Drug Conflict Code 2 - Drug Utilization Review (DUR),Drug_Strength,0.5242
+Severity Index Code 2- Drug Utilization Review (DUR),Drug_Strength,0.5192
+Other Pharmacy Code 2 - Drug Utilization Review (DUR),Pharmacy_Type,0.6404
+Date of Previous Fill 2 - Drug Utilization Review (DUR),Dosage Form,0.5211
+Quantity of Previous Fill 2 - Drug Utilization Review (DUR),Dosage Form,0.5102
+Database Code 2 - Drug Utilization Review (DUR),Pharmacy_Type,0.4812
+Other Prescriber Code 2 - Drug Utilization Review (DUR),Dosage Form,0.5393
+Free Text Message 2 - Drug Utilization Review (DUR),Dosage Form,0.5155
+Drug Conflict Code 3 - Drug Utilization Review (DUR),Drug_Strength,0.5248
+Severity Index Code 3- Drug Utilization Review (DUR),Drug_Strength,0.5205
+Other Pharmacy Code 3 - Drug Utilization Review (DUR),Pharmacy_Type,0.6447
+Date of Previous Fill 3 - Drug Utilization Review (DUR),Dosage Form,0.5191
+Quantity of Previous Fill 3 - Drug Utilization Review (DUR),Dosage Form,0.5074
+Database Code 3 - Drug Utilization Review (DUR),Pharmacy_Type,0.4921
+Other Prescriber Code 3 - Drug Utilization Review (DUR),Dosage Form,0.5366
+Free Text Message 3 - Drug Utilization Review (DUR,Dosage Form,0.5079
+Average Wholesale Price (AWP) - Unit Cost,Member_Other_Cost,0.3774
+Wholesale Acquisition Cost (WAC) - Unit Cost,Member_Other_Cost,0.4642
+Generic Equivalent Average Price (GEAP) - Unit Cost ,Member_Other_Cost,0.3936
+Cost Type - Unit Cost ,Member_Other_Cost,0.5145
+Basis of Cost Determination Code - Submitted ,Plan_Paid_Amount,0.4675
+Pricing Quantity,Quantity,0.6686
+Reversal Incentive Amount -  Submitted,Plan_Paid_Amount,0.5082
+Ingredient Cost - Submitted,Member_Other_Cost,0.4936
+Dispensing Fee - Submitted ,Member_Other_Cost,0.524
+Percentage Sales Tax - Submitted ,Total_Billed_Amount,0.4003
+Flat Sales Tax - Submitted,Total_Billed_Amount,0.3357
+Total Sales Tax - Submitted,Total_Billed_Amount,0.5005
+Member Paid Amount - Submitted,Member_Total_Paid_Amount,0.7568
+Gross Amount Due - Submitted,Total_Billed_Amount,0.5844
+Incentive Amount - Submitted,Plan_Paid_Amount,0.5823
+Professional Service Fee - Submitted,Member_Other_Cost,0.5157
+Total Other Amount - Submitted,Member_Total_Paid_Amount,0.6292
+Usual & Customary Amount - Submitted,Total_Billed_Amount,0.5347
+Primary Payer Denial Date - Submitted,Paid_Date,0.6096
+Other Payer Amount Paid - Submitted,Member_Total_Paid_Amount,0.6573
+Ingredient Cost - Calculated,Quantity,0.4622
+Dispensing Fee - Calculated,Plan_Paid_Amount,0.4796
+Percentage Sales Tax - Calculated,Total_Billed_Amount,0.3552
+Flat Sales Tax - Calculated ,Total_Billed_Amount,0.336
+Total Sales Tax - Calculated,Total_Billed_Amount,0.4548
+Member Pay Amount - Calculated ,Member_Total_Paid_Amount,0.8004
+Total Amount Due - Calculated ,Total_Billed_Amount,0.5154
+Withhold Amount - Calculated,Plan_Paid_Amount,0.3926
+Flat Copay Amount - Calculated ,Member_Copay_Coins,0.6501
+Coinsurance Amount - Calculated,Member_Copay_Coins,0.5125
+Total Copay Amount - Calculated,Member_Copay_Coins,0.6792
+Product Selection Amount - Calculated,Quantity,0.4642
+Sales Tax Amount - Calculated ,Total_Billed_Amount,0.4349
+Amount that Exceeds Benefit Maximum - Calculated ,Quantity,0.3706
+Incentive Fee Amount - Calculated ,Plan_Paid_Amount,0.4862
+Deductible Amount Applied - Calculated ,Member_Deductible,0.5804
+Total Coordination of Benefits Amount - Calculated,Member_Total_Paid_Amount,0.3768
+Other Payer Amount Recognized - Calculated ,Member_Total_Paid_Amount,0.6142
+Cost Source Code - Calculated ,Plan_Paid_Amount,0.4541
+Ingredient Cost - Approved ,Member_Other_Cost,0.4175
+Dispensing Fee - Approved,Plan_Paid_Amount,0.475
+Pharmacy Percentage Sales Tax - Approved,Pharmacy_Type,0.5153
+Pharmacy Flat Sales Tax - Approved,Pharmacy_Type,0.5072
+Total Sales Tax - Approved,Member_Total_Paid_Amount,0.3585
+Member Pay Amount - Approved ,Member_Total_Paid_Amount,0.7063
+Total Amount Due - Approved ,Plan_Paid_Amount,0.5383
+Withhold Amount - Approved,Plan_Paid_Amount,0.4423
+Pharmacy Price Schedule Used - Approved ,Date_Prescription_Filled,0.6381
+Pharmacy Price Schedule Table - Approved,Date_Prescription_Filled,0.5901
+Pharmacy Member Pay Schedule - Approved ,Paid_Date,0.5764
+Pharmacy Member Pay Schedule Table - Approved ,Paid_Date,0.5611
+Pharmacy Copay Schedule Used - Approved,Date_Prescription_Filled,0.6161
+Pharmacy Copay Schedule Step - Approved,Date_Prescription_Filled,0.5761
+Flat Copay Amount - Approved,Member_Copay_Coins,0.652
+Coinsurance Amount - Approved,Member_Copay_Coins,0.4992
+Total Copay Amount - Approved,Member_Copay_Coins,0.6767
+Product Selection Amount - Approved,Plan_Paid_Amount,0.3887
+Member Sales Tax Amount - Approved,Member_Total_Paid_Amount,0.5317
+Amount that Exceeds Benefit Maximum - Approved,Plan_Paid_Amount,0.3927
+Incentive Fee Amount - Approved,Plan_Paid_Amount,0.4998
+Deductible Amount - Approved,Member_Deductible,0.6307
+Total Coordination of Benefits Amount - Approved,Plan_Paid_Amount,0.4493
+Other Payer Amount Recognized - Approved,Plan_Paid_Amount,0.5775
+Cost Source Code - Approved,Plan_Paid_Amount,0.4629
+Cost Type - Approved,Member_Other_Cost,0.5048
+Price Type - Approved,Plan_Paid_Amount,0.414
+Pricing Code - Client,Member_Other_Cost,0.4702
+Ingredient Cost - Client,Member_Other_Cost,0.5092
+Dispensing Fee - Client,Member_Other_Cost,0.5221
+Total Sales Tax - Client,Member_Total_Paid_Amount,0.5149
+Member Pay Amount - Client ,Member_Total_Paid_Amount,0.7515
+Total Amount - Client,Member_Total_Paid_Amount,0.6676
+Withhold Amount - Client,Member_Total_Paid_Amount,0.3786
+Price Schedule Used - Client,Paid_Date,0.5185
+Price Schedule Table Used - Client,Paid_Date,0.5051
+Member Pay Schedule Used - Client,Paid_Date,0.6515
+Member Pay Schedule Table Used - Client,Paid_Date,0.6403
+Copay Schedule Used - Client,Member_Copay_Coins,0.6248
+Copay Schedule Step Used - Client,Member_Copay_Coins,0.597
+Flat Copay Amount - Client,Member_Copay_Coins,0.6942
+Coinsurance Amount - Client,Member_Copay_Coins,0.5269
+Total Copay Amount - Client,Member_Copay_Coins,0.7189
+Product Selection Amount - Client,Member_Other_Cost,0.4104
+Percentage Sales Tax - Client,Member_Total_Paid_Amount,0.393
+Flat Sales Tax - Client,Total_Billed_Amount,0.3282
+Total Sales Tax (Member Pay) - Client,Member_Total_Paid_Amount,0.6704
+Amount that Exceeds Benefit Maximum - Client,Member_Other_Cost,0.4508
+Incentive Fee Amount - Client,Member_Other_Cost,0.5241
+Deductible Amount - Client,Member_Deductible,0.7222
+Coordination of Benefits Total Amount - Client,Member_Total_Paid_Amount,0.4779
+Other Payer Amount Recognized - Client,Member_Total_Paid_Amount,0.6427
+Cost Source Code - Client ,Member_Other_Cost,0.5332
+Cost Type - Client ,Member_Other_Cost,0.6123
+Price Type - Client,Member_Other_Cost,0.5228
+Basis of Reimbursement Determination - Response,Plan_Paid_Amount,0.3724
+Ingredient Cost - Response,Quantity,0.4361
+Dispensing Fee - Response,Plan_Paid_Amount,0.4949
+Percentage Sales Tax - Response,Total_Billed_Amount,0.3319
+Flat Sales Tax - Response,Total_Billed_Amount,0.3071
+Total Sales Tax - Response,Total_Billed_Amount,0.4276
+Member Pay Amount - Response,Member_Total_Paid_Amount,0.7601
+Total Amount Paid - Response,Member_Total_Paid_Amount,0.6884
+Flat Copay Amount - Response,Member_Copay_Coins,0.6617
+Coinsurance Amount - Response,Member_Copay_Coins,0.5272
+Total Copay Amount - Response,Member_Copay_Coins,0.6786
+Product Selection Amount - Response ,Quantity,0.4602
+Member Sales Tax Amount - Response,Member_Total_Paid_Amount,0.5792
+Amount that Exceeds Benefit Maximum - Response,Quantity,0.4043
+Incentive Fee Amount - Response,Plan_Paid_Amount,0.5063
+Deductible Amount - Response,Member_Deductible,0.6558
+Other Payer Amount Recognized - Response,Member_Total_Paid_Amount,0.6067
+Accumulated Deductible Amount - Response,Member_Deductible,0.5844
+Remaining Benefit Amount - Response,Plan_Paid_Amount,0.3922
+Remaining Deductible Amount - Response,Member_Deductible,0.5715
+Accumulated Individual Deductible Period to Date,Member_Deductible,0.5356
+Remaining Individual Deductible Amount,Member_Deductible,0.607
+Accumulated Family Deductible Period to Date,Date_of_Birth,0.4771
+Remaining Family Deductible Amount,Member_Deductible,0.5101
+Deductible Schedule Code ,Member_Deductible,0.5231
+Deductible Accumulation  Code,Member_Deductible,0.5896
+Deductible Flag,Member_Deductible,0.6103
+Individual Lifetime Benefit Maximum Amount Used,Plan_Paid_Amount,0.4049
+Accumulated Individual Lifetime Benefit Maximum Amount,Plan_Paid_Amount,0.3931
+Remaining Individual Lifetime Benefit Maximum Amount,Plan_Paid_Amount,0.3893
+Family Lifetime Benefit Maximum Amount Used,Member_Other_Cost,0.3433
+Accumulated Family Lifetime Benefit Maximum Amount,Member_Total_Paid_Amount,0.3497
+Remaining Family Lifetime Benefit Maximum Amount,Member_Total_Paid_Amount,0.3332
+Lifetime Benefit Maximum Schedule Code ,Plan_Paid_Amount,0.4155
+Lifetime Benefit Maximum Accumulation Code,Days_Supply,0.3756
+Lifetime Benefit Maximum Flag,Status,0.4064
+Individual Benefit Maximum Amount Used,Plan_Paid_Amount,0.431
+Accumulated Individual Benefit Maximum Amount,Plan_Paid_Amount,0.4277
+Family Benefit Maximum Amount Used,Member_Total_Paid_Amount,0.3628
+Accumulated Family Benefit Maximum Amount,Member_Total_Paid_Amount,0.3827
+Remaining Individual Benefit Maximum Amount,Member_Total_Paid_Amount,0.4073
+Remaining Family Benefit Maximum Amount,Member_Total_Paid_Amount,0.3648
+Benefit Maximum Schedule Code ,Plan_Paid_Amount,0.399
+Benefit Maximum Accumulation Code,Quantity,0.3671
+Benefit Maximum Flag,Status,0.3305
+Accumulated Individual Out of Pocket Amount,Member_Copay_Coins,0.3655
+Accumulated Family Out of Pocket Amount,Quantity,0.2907
+Remaining Individual Out of Pocket Amount,Member_Copay_Coins,0.3437
+Remaining Family Out of Pocket Amount,Quantity,0.2758
+Out of Pocket Maximum Schedule Code,Date_Prescription_Filled,0.4046
+Out of Pocket Accumulation Code,Days_Supply,0.3286
+Out of Pocket Flag,Member_Copay_Coins,0.216
+Payment Reimbursement Code,Paid_Date,0.5257
+Claim Origination Flag,Original_Claim,0.6503
+Add System User ID,Employee_ID,0.5239
+"Change System User ID
+
+",Employee_ID,0.4919
+Direct Member Reimbursement (DMR) System User ID,Member_Total_Paid_Amount,0.4959
+Add System User ID - Prior Authorization (PA),Employee_ID,0.4212
+Claim Reference Identification Number for Workers' Compensation - Pharmacy Submitted,Claim ID,0.541
+Explanation of Benefits (EOB) Denial Override Code,Member_Deductible,0.3548
+Manual Pharmacy Claim Tracking Number,Pharmacy_Name,0.6265
+Manual Pharmacy Claim Received Date,Date_Prescription_Filled,0.6211
+Health Insurance Market (HIM) Status,Status,0.4128
+Deliquency Handling Code,Member_Deductible,0.2969
+Deliquency Resolved Code,Date_of_Service,0.3483
+Price Schedule Type,Plan_Paid_Amount,0.4905
+Secondary Claim Code,Original_Claim,0.6979
+Plan Product Type,Plan_Paid_Amount,0.4624
+Prorate Copay Indicator,Member_Copay_Coins,0.6459
+Client Code,Patient_Zip_code,0.4367
+Formulary Tier,Formulary,0.7304
+Formulary Tier-Final,Formulary,0.6631
+Cost Share Code,Member_Other_Cost,0.5779
+Cost Share Code-Final,Member_Other_Cost,0.6018
+Plan Sponsor Pricing Detail,Plan_Paid_Amount,0.5844
+Benefit Selection Cost Indicator,Plan_Paid_Amount,0.3386
+New Drug Application (NDA) Product Override,Drug_Strength,0.3844
+Biologic License Application (BLA) Flag,Brand_Generic,0.3414
+Biologic License Application (BLA) Override,Brand_Generic,0.3303
+Applied Accumulator Records Indicator,Record Number,0.3314
+Considered Met Accumulator Records Indicator,Record ID,0.2794
+Drug Cost Reduction Extract Records Indicator,Dosage Form,0.4711
+Eligibility Redirect Indicator,Status,0.4412
+Point of Sale Rebate Flag,Total_Billed_Amount,0.3282
+Network Contract Type Code,In-Out_Network,0.4183
+Patient Assistance Program Claim Designation Flag,Patient_ID,0.5954
+Biosimilar Rating,Brand_Generic,0.3305
+Biosimilar Override,Brand_Generic,0.3206
+Low Income Cost-Sharing Subsidy (LICS) Copay Category Code,Member_Copay_Coins,0.5764
+Reimbursement Check Number,Paid_Date,0.449
+Reimbursement Check Date,Paid_Date,0.614
+Accumulator Integrated Flag,Record ID,0.1889
+Subscriber Last Name,Prescriber_Name,0.6863
+Subscriber First  Name,Prescriber_Name,0.7717
+Subscriber Middle Initial ,Prescriber_Name,0.6255
+Subscriber Gender Code,Prescriber_Name,0.4086
+Subscriber Date of Birth ,Date_of_Birth,0.7148
+Subscriber Address Line 1,Prescriber_Name,0.5598
+Subscriber Address Line 2,Prescriber_Name,0.4921
+Subscriber City,Patient_City,0.4441
+Subscriber State,Prescriber_Name,0.5112
+Subscriber Zip,Patient_Zip_code,0.5269
+Subscriber Zip Extension,Patient_Zip_code,0.5491
+Pharmacy Address Line 1,Pharmacy_Name,0.7371
+Pharmacy City,Pharmacy_Name,0.7433
+Pharmacy State,Pharmacy_Type,0.7282
+Pharmacy Phone,Pharmacy_Name,0.7354
+Pharmacy Federal Tax ID,Pharmacy_Name,0.5899
+Total Amount Due to Pharmacy,Pharmacy_Name,0.5897
+Pharmacy ID - National Provider Identifier (NPI),Pharmacy_Type,0.6817
+Pharmacy ID - National Council for Prescription Drug Programs (NCPDP),Pharmacy_Name,0.6587
+CMS Contract Identifier,Employee_ID,0.4325
+CMS Plan Benefit Package (PBP) ID,Plan_Paid_Amount,0.3626
+Covered Plan Paid (CPP) TrOOP Schedule Code,Plan_Paid_Amount,0.5601
+Drug Coverage Status Schedule Code,Date_Prescription_Filled,0.5876
+Drug Coverage Status Code,Date_Prescription_Filled,0.5119
+Medicare Part D Profile Sequence Number,Patient_Address 1,0.4221
+Covered Plan Paid (CPP) Amount,Plan_Paid_Amount,0.7301
+Prior TrOOP Amount,Quantity,0.2916
+Submitted Other Payer Amount Paid,Member_Total_Paid_Amount,0.6579
+Low Income Cost-Sharing Subsidy (LICS) Amount,Member_Other_Cost,0.4431
+Low Income Cost-Sharing Subsidy (LICS) TrOOP Schedule Code,Plan_Paid_Amount,0.3749
+Low Income Cost-Sharing Subsidy (LICS) TrOOP Schedule Step Number,Plan_Paid_Amount,0.3853
+Low Income Cost-Sharing Subsidy (LICS) TrOOP Schedule Step Count,Plan_Paid_Amount,0.3741
+Deductible Level Drug Spend - Medicare Part D ,Date_Prescription_Filled,0.4612
+Amount Toward Medicare Part D Plan Deductible,Plan_Paid_Amount,0.5613
+Deductible Level TrOOP Amount,Member_Deductible,0.461
+Plan Coverage Gap Drug Spend - Medicare Part D,Date_Prescription_Filled,0.4352
+Amount Toward Medicare Part D Plan Coverage Gap,Plan_Paid_Amount,0.4696
+Plan TrOOP Catastrophic Amount,Plan_Paid_Amount,0.3042
+Plan Paid Amount Catastrophic,Plan_Paid_Amount,0.6895
+Plan Initial Coverage Amount,Plan_Paid_Amount,0.6077
+Plan Paid Amount Initial Coverage,Plan_Paid_Amount,0.71
+Member Amount Toward  Medicare Part D Deductible,Member_Deductible,0.5172
+Member Amount Toward Medicare Part D Coverage Gap,Member_Other_Cost,0.3893
+Member Amount Toward Medicare Part D Catastrophic ,Member_Other_Cost,0.3997
+Plan TrOOP Schedule Code,Plan_Paid_Amount,0.3694
+Member Amount Toward Medicare Part D Initial Coverage,Member_Total_Paid_Amount,0.4599
+Catastrophic Coverage Code,Status,0.2514
+Gross Drug Cost Above Out of Pocket Threshold (GDCA),Dosage Form,0.4687
+Gross Drug Cost Below Out of Pocket Threshold (GDCB),Dosage Form,0.4784
+Non-Covered Plan Paid (NPP) Amount,Plan_Paid_Amount,0.7394
+Drug Spend Amount - Medicare Part D,Date_Prescription_Filled,0.4835
+Filler,Days_Supply,0.2155
+Pharmacy Dispenser Type (secondary),Pharmacy_Type,0.7685
+Pharmacy Dispenser Type (tertiary),Pharmacy_Type,0.7923
+Pharmacy Name,Pharmacy_Name,0.9749
+Submitted Prescription Number (12 characters),Date_Prescription_Filled,0.6847
+Pharmacy Member Pay Schedule Table (13 characters) - Approved ,Date_Prescription_Filled,0.573
+Member Pay Schedule Table Used (13 characters) - Client ,Member_Total_Paid_Amount,0.6139
+Reprocess Claim Sequence Nbr,Original_Claim,0.3161
+Adjustment Sequence Nbr,NDC,0.3615
+Original Adjustment Sequence,Formulary,0.2839
+SCA Claim Number,Claim ID,0.4828
+SCA Sequence Number,Record Number,0.34
+Adjustment Reprocessing Reason Code,Formulary,0.1982
+Tracking ID,Record ID,0.579
+Formulary ID,Formulary,0.7855
+Drug Cost Reduction Indicator,Dosage Form,0.4862
+Alternative Drug Cost,Dosage Form,0.5417
+Drug Cost Percentage Applied,Dosage Form,0.4847
+Grace Fill Applied/Qualified Flag,Claim ID,0.27
+Grace Fill Diagnosis Program Status,Patient_ID,0.4029
+Newborn Coverage Indicator,Date_of_Birth,0.3687
+FlexAccess Claim Designation Flag,Label_Name,0.3929
+FlexAccess Member Refused Flag ,Claim ID,0.2356
+Future Use,Status,0.3017
+Client Delta Schedule Name,Date_of_Service,0.5338
+Client Delta Rate Schedule Name,Date_of_Service,0.4993
+Reserve Field 9,NDC,0.2771
+Reserve Field 10,NDC,0.2609
+Individual OOP Applied Amount,Member_Total_Paid_Amount,0.4543
+Individual Deductible Applied Amount,Member_Deductible,0.6464
+FlexAccess Standard Benefit Patient Pay,Date_Prescription_Filled,0.4154
+Member Pay after Mfg Assistance,Member_Total_Paid_Amount,0.4665
+Coupon Transaction Type,Member_Copay_Coins,0.4339
+Coupon Amount ,Plan_Paid_Amount,0.4595
+Client Defined Data,Patient_ID,0.4246
+Last byte contains '*',Patient_Last_Name,0.3447
