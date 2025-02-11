@@ -11,4 +11,4 @@ model_name = "paraphrase-MiniLM-L6-v2"
 # mpnet = "all-mpnet-base-v2"
 
 # Run the analysis
-run_similarity_analysis(source_path, target_path, model_name, output_file, filter_highest_only=True)
+run_similarity_analysis(source_path, target_path, model_name, output_file, filter_highest_only=False)
