@@ -1,0 +1,42 @@
+Field Name,Definition,Similarity
+Record ID,A unique identifier assigned to each record in the system.,1
+Record Number,A sequential number assigned to track records systematically.,1
+Claim ID,A unique identifier for the insurance claim submitted for a medical service.,1
+Original_Claim,The initial claim submitted before any adjustments or resubmissions.,0.9
+Group_ID,An identifier representing the employer or organization sponsoring the insurance plan.,0.9
+PCN,A number used by pharmacy benefit managers to route claims to the correct insurer.,1
+Employee_ID,A unique identifier for the employee associated with the insurance coverage.,1
+SSN,A nine-digit number used for patient identification (if applicable).,1
+Patient_ID,A unique identifier assigned to the patient in the healthcare system.,1
+Patient_Last_Name,The surname of the patient receiving medical care.,1
+Patient_First_Name,The given name of the patient.,1
+Patient_Address 1,The primary street address of the patient.,0.9
+Patient_Address 2,"Additional address information, such as an apartment or suite number.",0.9
+Patient_City,The city where the patient resides.,1
+Patient_State,The state where the patient resides.,1
+Patient_Zip_code,The postal code of the patient’s residence.,1
+Relationship,"The relationship of the patient to the primary insurance holder (e.g., self, spouse, child).",0.9
+Date_of_Birth,The birthdate of the patient in MM/DD/YYYY format.,1
+Prescriber_Name,The name of the healthcare provider who prescribed the medication.,1
+Pharmacy_Name,The name of the pharmacy where the prescription was filled.,1
+Pharmacy_Type,"The category of pharmacy (e.g., retail, mail-order, specialty).",1
+Date_of_Service,The date when the medical service or prescription was provided.,1
+Prescription_No,A unique identifier assigned to the prescription by the pharmacy.,1
+Date_Prescription_Filled,The date the prescription was dispensed by the pharmacy.,1
+In-Out_Network,Specifies whether the pharmacy is in-network or out-of-network under the insurance plan.,1
+NDC,"A unique identifier for the prescribed medication, specifying the manufacturer, product, and packaging.",1
+Label_Name,The brand or generic name of the medication as labeled.,1
+Brand_Generic,Specifies whether the drug is a brand-name or generic medication.,1
+Drug_Strength,"The potency of the medication (e.g., 500 mg, 10 mg/mL).",1
+Days_Supply,The number of days the dispensed medication is expected to last.,1
+Quantity,"The amount of medication dispensed (e.g., number of tablets, mL of liquid).",1
+Dosage Form,"The form of medication, such as tablet, capsule, or liquid.",1
+Formulary,Indicates whether the prescribed drug is covered under the insurance plan’s formulary.,1
+Total_Billed_Amount,The total cost of the prescription or service before insurance payments.,1
+Plan_Paid_Amount,The portion of the billed amount covered and paid by the insurance plan.,0.9
+Member_Copay_Coins,The fixed amount or percentage the patient must pay out-of-pocket as part of cost-sharing.,0.9
+Member_Deductible,The amount the patient must pay before insurance coverage starts.,0.9
+Member_Other_Cost,"Any additional out-of-pocket costs incurred by the patient, such as penalties or non-covered charges.",0.9
+Member_Total_Paid_Amount,"The total amount the patient paid, including copay, deductible, and other costs.",0.9
+Paid_Date,The date when the payment was processed for the claim.,0.9
+Status,"The current status of the claim (e.g., paid, denied, pending).",0.9
