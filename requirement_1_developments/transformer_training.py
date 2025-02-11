@@ -6,6 +6,7 @@ import logging
 import pandas as pd
 from torch.utils.data import DataLoader
 from sentence_transformers import SentenceTransformer, InputExample, losses
+from mteb import MTEB
 
 # Configure logging
 # logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(Model training started)s")
@@ -57,3 +58,18 @@ if __name__ == "__main__":
         model_name="sentence-transformers/all-MiniLM-L6-v2",
         output_path="ehr_trained_model"
     )
+
+
+
+# model = SentenceTransformer("domain_sentence_transformer")
+
+# sentences = ["biological sample", "a specimen collected for testing"]
+# embeddings = model.encode(sentences)
+
+# from sklearn.metrics.pairwise import cosine_similarity
+# similarity = cosine_similarity([embeddings[0]], [embeddings[1]])
+# print(f"Similarity Score: {similarity[0][0]:.4f}")
+
+evaluation = MTEB(tasks=["STSBenchmark"])
+results = evaluation.run("ehr_trained_model")
+print(results)
