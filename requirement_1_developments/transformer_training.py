@@ -70,6 +70,6 @@ if __name__ == "__main__":
 # similarity = cosine_similarity([embeddings[0]], [embeddings[1]])
 # print(f"Similarity Score: {similarity[0][0]:.4f}")
 
-evaluation = MTEB(tasks=["STSBenchmark"])
-results = evaluation.run("ehr_trained_model")
-print(results)
+# evaluation = MTEB(tasks=["STSBenchmark"])
+# results = evaluation.run("ehr_trained_model")
+# print(results)
